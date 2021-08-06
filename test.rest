@@ -1,0 +1,39 @@
+// get post
+GET http://localhost:4000/post
+Content-Type: application/json
+
+// Find post by Id
+###
+GET http://localhost:4000/post/610d3686224d4108dc4e9c03
+Content-Type: application/json
+
+// Find post by title
+###
+GET http://localhost:4000/post/title/CRUD
+Content-Type: application/json
+
+###
+
+// create post
+POST http://localhost:4000/post
+Content-Type: application/json
+
+{
+    "title": "CRUD",
+    "description": "Performing a CRUD operation using Nodejs, ExressJs and MongoDb"
+}
+// update post
+###
+PUT http://localhost:4000/post/610d3686224d4108dc4e9c03
+Content-Type: application/json
+
+{
+     "title": "CRUD Operations",
+     "description": "Designing Api's using NodeJs, ExpressJs and MongoDb"
+}
+
+// delete post
+###
+DELETE http://localhost:4000/post/610d3686224d4108dc4e9c03
+Content-Type: application/json
+
