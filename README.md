@@ -1,5 +1,5 @@
 # CRUD API DEMO
-> Simple demonstration of creating , reading updating and deleting Api data from MongoDb
+> Simple demonstration of Creating , Reading, Updating and Deleting Api data from MongoDb
 
 ## Prerequisite:
 - [x] npm/nodejs latest version
