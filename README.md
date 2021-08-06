@@ -22,7 +22,7 @@ Dependencies are:
 
 ## Run Project
 ```
-npm run devStart
+npm run start
 ```
 Or
 ```
